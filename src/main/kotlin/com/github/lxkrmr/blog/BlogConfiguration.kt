@@ -17,14 +17,14 @@ class BlogConfiguration {
         articleRepository.save(Article(
             title = "Title",
             headline = "This is a headline",
-            content = "This is a content",
+            content = "Some content",
             author = johnDoe
         ))
 
         articleRepository.save(Article(
             title = "Another title",
             headline = "This is another headline",
-            content = "And even more content.",
+            content = "And even more content",
             author = johnDoe
         ))
 
